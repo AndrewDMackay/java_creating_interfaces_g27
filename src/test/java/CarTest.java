@@ -36,11 +36,11 @@ public class CarTest {
 
     @Test
     public void canStart(){
-        assertEquals("Switch on the ignition", car.start());
+        assertEquals("Switch on the ignition.", car.start());
     }
 
     @Test
     public void canStop(){
-        assertEquals("Apply the brakers", car.stop());
+        assertEquals("Apply the brakes.", car.stop());
     }
 }

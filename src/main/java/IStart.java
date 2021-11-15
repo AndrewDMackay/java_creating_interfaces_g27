@@ -1,4 +1,5 @@
+
 public interface IStart {
 
-    String start()
+    String start();
 }

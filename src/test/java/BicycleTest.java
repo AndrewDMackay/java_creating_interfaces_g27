@@ -25,6 +25,6 @@ public class BicycleTest {
 
     @Test
     public void canStop(){
-        assertEquals("Stop pedaling", bicycle.stop());
+        assertEquals("Stop pedaling.", bicycle.stop());
     }
 }
